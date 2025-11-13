@@ -1,6 +1,6 @@
 #include "StreamFigureFactory.h"
 
-Figure* StreamFigureFactory::create() const
+Figure* StreamFigureFactory::create()
 {
     return nullptr;
 }

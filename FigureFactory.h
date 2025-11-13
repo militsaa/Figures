@@ -1,6 +1,6 @@
 #include "Figure.h"
 class FigureFactory {
 public:
-    virtual Figure* create() const = 0;
+    virtual Figure* create() = 0;
     virtual ~FigureFactory() = default;
 };

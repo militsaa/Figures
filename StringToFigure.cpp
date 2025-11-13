@@ -10,7 +10,7 @@ const int StringToFigure::circleleArgCnt = 2;
 const int StringToFigure::rectangleArgCnt = 3;
 const int StringToFigure::triangleArgCnt = 4;
 
-Circle* StringToFigure::parseCircle(const std::string& radius)
+Figure* StringToFigure::parseCircle(const std::string& radius)
 {
     double param;
     if (utils::tryParseDouble(radius, param)) {
@@ -19,7 +19,7 @@ Circle* StringToFigure::parseCircle(const std::string& radius)
     else throw std::invalid_argument("Invalid string!");
 }
 
-Rectangle* StringToFigure::parseRectangle(const std::string& sideA, const std::string& sideB)
+Figure* StringToFigure::parseRectangle(const std::string& sideA, const std::string& sideB)
 {
     double paramA, paramB;
     if (utils::tryParseDouble(sideA, paramA) && utils::tryParseDouble(sideB, paramB)) {
@@ -28,7 +28,7 @@ Rectangle* StringToFigure::parseRectangle(const std::string& sideA, const std::s
     else throw std::invalid_argument("Invalid string!");
 }
 
-Triangle* StringToFigure::parseTriangle(const std::string& sideA, const std::string& sideB, const std::string& sideC)
+Figure* StringToFigure::parseTriangle(const std::string& sideA, const std::string& sideB, const std::string& sideC)
 {
     double paramA, paramB, paramC;
     if (utils::tryParseDouble(sideA, paramA) && utils::tryParseDouble(sideB, paramB) && utils::tryParseDouble(sideC, paramC)) {

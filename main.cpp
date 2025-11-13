@@ -2,6 +2,7 @@
 #include <iostream>
 int main()
 {
+    std::cout << "abc";
     // double sideA, sideB, sideC;
     // sideA = 3.08;
     // sideB = 4.5;

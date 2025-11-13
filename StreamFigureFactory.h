@@ -2,5 +2,5 @@
 
 class StreamFigureFactory : public FigureFactory {
 public:
-    virtual Figure* create() const override;
+    virtual Figure* create() override;
 };
