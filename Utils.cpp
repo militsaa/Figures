@@ -1,4 +1,5 @@
 #include "Utils.h"
+#include <stdexcept>
 
 std::vector<std::string> utils::split(const std::string& toSeparate, char del) {
     std::vector<std::string> result;
@@ -17,3 +18,17 @@ std::vector<std::string> utils::split(const std::string& toSeparate, char del) {
         result.push_back(curr);
     return result;
 }
+
+bool utils::tryParseDouble(const std::string& s, double& out)
+{
+    try {
+        size_t idx;
+        out = std::stod(s, &idx);
+        return idx == s.size();
+    }
+    catch (const std::invalid_argument&) {
+        return false;
+    }
+}
+
+
