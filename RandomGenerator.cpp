@@ -14,6 +14,6 @@ int RandomGenerator::getRandInt(int beg, int end)
 
 double RandomGenerator::getRandDouble(double beg, double end)
 {
-    std::uniform_real_distribution<int>dist(beg, end);
+    std::uniform_real_distribution<double>dist(beg, end);
     return dist(gen);
 }

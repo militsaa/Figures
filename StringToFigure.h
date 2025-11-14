@@ -1,5 +1,7 @@
+#pragma once
 #include "Figure.h"
 #include <string>
+#include <memory>
 class StringToFigure {
     static const int circleleArgCnt;
     static const int triangleArgCnt;

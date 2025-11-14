@@ -38,4 +38,5 @@ std::unique_ptr<Figure> RandomFigureFactory::create()
         return randomTriangle();
         break;
     }
+    return nullptr;
 }

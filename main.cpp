@@ -1,8 +1,10 @@
 #include <sstream>
 #include <iostream>
+#include "Application.h"
 int main()
 {
-    std::cout << "abc";
+    Application app;
+    app.run();
     // double sideA, sideB, sideC;
     // sideA = 3.08;
     // sideB = 4.5;

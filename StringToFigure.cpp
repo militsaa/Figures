@@ -1,11 +1,10 @@
 #include "StringToFigure.h"
-#include <vector>
 #include "Utils.h"
-#include <stdexcept>
 #include "Circle.h"
 #include "Rectangle.h"
 #include "Triangle.h"
-#include <memory>
+#include <vector>
+#include <stdexcept>
 
 const int StringToFigure::circleleArgCnt = 2;
 const int StringToFigure::rectangleArgCnt = 3;
@@ -43,12 +42,15 @@ std::unique_ptr<Figure> StringToFigure::stringToFigure(const std::string& repres
     std::vector<std::string> data = utils::split(representation, ' ');
     if (data.size() < circleleArgCnt) throw std::invalid_argument("Invalid string!");
     if (data[0] == "Circle") {
-        parseCircle(data[1]);
+        return parseCircle(data[1]);
     }
     if (data[0] == "Rectangle" && data.size() == rectangleArgCnt) {
-        parseRectangle(data[1], data[2]);
+        return parseRectangle(data[1], data[2]);
     }
     if (data[0] == "Triangle" && data.size() == triangleArgCnt) {
-        parseTriangle(data[1], data[2], data[3]);
+        return parseTriangle(data[1], data[2], data[3]);
     }
+    throw std::invalid_argument("Unknown figure type: " + data[0]);
+
+    return nullptr;
 }

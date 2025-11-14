@@ -4,19 +4,19 @@
 #include <iostream>
 #include <fstream>
 
-FigureFactory* ConcreteFigureFactory::create(std::string& type)
+std::unique_ptr<FigureFactory> ConcreteFigureFactory::create(std::string& type)
 {
     if (type == "Random") {
-        return new RandomFigureFactory();
+        return std::make_unique<RandomFigureFactory>();
     }
     if (type == "STDIN") {
-        return new StreamFigureFactory(std::cin);
+        return std::make_unique<StreamFigureFactory>(std::cin);
     }
     if (type == "File") {
         std::string fileName;
         std::cin >> fileName;
         std::ifstream in(fileName);
-        return new StreamFigureFactory(in);
+        return std::make_unique<StreamFigureFactory>(in);
     }
     throw std::invalid_argument("Invalid type!");
 }
