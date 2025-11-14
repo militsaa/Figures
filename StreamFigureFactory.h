@@ -4,5 +4,5 @@ class StreamFigureFactory : public FigureFactory {
     std::istream& in;
 public:
     StreamFigureFactory(std::istream& input);
-    virtual Figure* create() override;
+    virtual std::unique_ptr<Figure> create() override;
 };

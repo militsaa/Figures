@@ -3,7 +3,7 @@
 
 StreamFigureFactory::StreamFigureFactory(std::istream& input) :in(input) {}
 
-Figure* StreamFigureFactory::create()
+std::unique_ptr<Figure> StreamFigureFactory::create()
 {
     std::string line;
     if (!std::getline(in, line))

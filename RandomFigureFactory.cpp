@@ -3,28 +3,28 @@
 #include "Rectangle.h"
 #include "Triangle.h"
 
-Figure* RandomFigureFactory::randomCircle()
+std::unique_ptr<Figure>  RandomFigureFactory::randomCircle()
 {
     int radius = rand.getRandDouble(0.1, MAX_PARAMETER_VALUE);
-    return new Circle(radius);
+    return std::make_unique<Circle>(radius);
 }
 
-Figure* RandomFigureFactory::randomRectangle()
+std::unique_ptr<Figure> RandomFigureFactory::randomRectangle()
 {
     int sideA = rand.getRandDouble(0.1, MAX_PARAMETER_VALUE);
     int sideB = rand.getRandDouble(0.1, MAX_PARAMETER_VALUE);
-    return new Rectangle(sideA, sideB);
+    return std::make_unique<Rectangle>(sideA, sideB);
 }
 
-Figure* RandomFigureFactory::randomTriangle()
+std::unique_ptr<Figure> RandomFigureFactory::randomTriangle()
 {
     int sideA = rand.getRandDouble(0.1, MAX_PARAMETER_VALUE);
     int sideB = rand.getRandDouble(0.1, MAX_PARAMETER_VALUE);
     int sideC = rand.getRandDouble(abs(sideA - sideB) + 0.1, sideA + sideB - 0.1);
-    return new Triangle(sideA, sideB, sideC);
+    return std::make_unique<Triangle>(sideA, sideB, sideC);
 }
 
-Figure* RandomFigureFactory::create()
+std::unique_ptr<Figure> RandomFigureFactory::create()
 {
     int type = rand.getRandInt(1, 3);
     switch (type) {
