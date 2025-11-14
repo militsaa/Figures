@@ -1,5 +1,5 @@
 #include "FigureFactory.h"
-#include <iostream>
+#include <istream>
 class StreamFigureFactory : public FigureFactory {
     std::istream& in;
 public:
