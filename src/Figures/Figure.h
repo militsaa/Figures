@@ -1,5 +1,5 @@
 #pragma once
-#include "StringConvertible.h"
+#include "../Utils/StringConvertible.h"
 
 class Figure : public StringConvertible {
 public:

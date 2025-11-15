@@ -1,7 +1,7 @@
 #include "RandomFigureFactory.h"
-#include "Circle.h"
-#include "Rectangle.h"
-#include "Triangle.h"
+#include "../Figures/Circle.h"
+#include "../Figures/Rectangle.h"
+#include "../Figures/Triangle.h"
 
 std::unique_ptr<Figure>  RandomFigureFactory::randomCircle()
 {

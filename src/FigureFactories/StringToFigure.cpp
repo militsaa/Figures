@@ -1,8 +1,8 @@
 #include "StringToFigure.h"
-#include "Utils.h"
-#include "Circle.h"
-#include "Rectangle.h"
-#include "Triangle.h"
+#include "../Utils/Utils.h"
+#include "../Figures/Circle.h"
+#include "../Figures/Rectangle.h"
+#include "../Figures/Triangle.h"
 #include <vector>
 #include <stdexcept>
 

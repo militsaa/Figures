@@ -28,6 +28,13 @@ void Application::saveInFile(const std::vector<std::unique_ptr<Figure>>& figures
     //close?
 }
 
+void Application::getPerimeter(const std::vector<std::unique_ptr<Figure>>& figures)
+{
+    for (int i = 0; i < figures.size(); i++) {
+        std::cout << figures[i]->perimeter() << '\n';
+    }
+}
+
 void Application::deleteAtIndex(std::vector<std::unique_ptr<Figure>>& figures)
 {
     std::cout << "Index to delete: ";
@@ -94,6 +101,12 @@ void Application::run()
         else if (cmd == "safe") {
             saveInFile(figures);
         }
+        else if (cmd == "perimeters") {
+            getPerimeter(figures);
+        }
         else if (cmd == "exit") break;
+        else {
+            std::cout << "Invalid command!\n";
+        }
     }
 };

@@ -1,7 +1,5 @@
 #pragma once
-#include "Figure.h"
 #include <string>
-#include <memory>
 
 class StringConvertible {
 public:

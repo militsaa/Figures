@@ -1,6 +1,6 @@
 #pragma once
 #include "FigureFactory.h"
-#include "RandomGenerator.h"
+#include "../Utils/RandomGenerator.h"
 #include <memory>
 class RandomFigureFactory : public FigureFactory {
     const double MAX_PARAMETER_VALUE = 50;

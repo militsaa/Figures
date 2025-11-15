@@ -1,5 +1,5 @@
 #pragma once
-#include "Figure.h"
+#include "../Figures/Figure.h"
 #include <memory>
 class FigureFactory {
 public:
