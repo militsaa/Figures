@@ -4,7 +4,6 @@
 #include "../FigureFactories/ConcreteFigureFactory.h"
 #include <vector>
 #include <fstream>
-#include <iomanip> 
 
 void Application::listFigures(const std::vector<std::unique_ptr<Figure>>& figures)
 {
@@ -31,7 +30,12 @@ void Application::saveInFile(const std::vector<std::unique_ptr<Figure>>& figures
 void Application::getPerimeter(const std::vector<std::unique_ptr<Figure>>& figures)
 {
     for (int i = 0; i < figures.size(); i++) {
-        std::cout << figures[i]->perimeter() << '\n';
+        try {
+            std::cout << figures[i]->perimeter() << '\n';
+        }
+        catch (const std::exception& e) {
+            std::cout << "Perimeter is too big to print!\n";
+        }
     }
 }
 
@@ -63,7 +67,6 @@ void Application::cloneIndex(std::vector<std::unique_ptr<Figure>>& figures)
 
 void Application::run()
 {
-    std::cout << std::fixed << std::setprecision(2);
     std::cout << "Choose the input!\n";
     std::string inputType;
     std::cin >> inputType;

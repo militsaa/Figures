@@ -1,13 +1,18 @@
 #define _USE_MATH_DEFINES
 #include "Circle.h"
+#include "../Utils/Utils.h"
 #include <cmath>
 #include <stdexcept>
 
 Circle::Circle(double radius) {
-    if (radius > 0)
-        this->radius = radius;
-    else
+    if (radius <= 0) {
         throw std::invalid_argument("Invalid radius!");
+    }
+    double per = 2 * radius * M_PI;
+    if (!std::isfinite(per)) {
+        throw std::overflow_error("Perimeter overflow!");
+    }
+    this->radius = radius;
 }
 
 double Circle::perimeter() const {
@@ -19,5 +24,5 @@ Figure* Circle::clone() const {
 }
 
 std::string Circle::to_string() const {
-    return "Circle " + std::to_string(radius);
+    return "Circle " + utils::doubleToString(radius);
 }

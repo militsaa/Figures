@@ -1,13 +1,18 @@
 #include "Rectangle.h"
+#include "../Utils/Utils.h"
 #include <stdexcept>
+#include <cmath>
 
 Rectangle::Rectangle(double sideA, double sideB) {
-    if (sideA > 0 && sideB > 0) {
-        this->sideA = sideA;
-        this->sideB = sideB;
-    }
-    else
+    if (sideA <= 0 || sideB <= 0) {
         throw std::invalid_argument("Invalid rectangle sides!");
+    }
+    double per = 2 * (sideA + sideB);
+    if (!std::isfinite(per)) {
+        throw std::overflow_error("Perimeter overflow!");
+    }
+    this->sideA = sideA;
+    this->sideB = sideB;
 }
 
 double Rectangle::perimeter() const {
@@ -19,5 +24,5 @@ Figure* Rectangle::clone() const {
 }
 
 std::string Rectangle::to_string() const {
-    return "Rectangle " + std::to_string(sideA) + " " + std::to_string(sideB);
+    return "Rectangle " + utils::doubleToString(sideA) + " " + utils::doubleToString(sideB);
 }
