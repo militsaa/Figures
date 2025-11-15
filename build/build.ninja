@@ -215,6 +215,14 @@ build CMakeFiles/tests.dir/tests/test_Rectangle.cpp.obj: CXX_COMPILER__tests_uns
   OBJECT_DIR = CMakeFiles\tests.dir
   OBJECT_FILE_DIR = CMakeFiles\tests.dir\tests
 
+build CMakeFiles/tests.dir/tests/test_StringToFigure.cpp.obj: CXX_COMPILER__tests_unscanned_Debug C$:/Users/Mili/Desktop/uni/2ри$ курс/design$ patterns/homework$ 1/tests/test_StringToFigure.cpp || cmake_object_order_depends_target_tests
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\tests.dir\tests\test_StringToFigure.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -I"C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/src"
+  OBJECT_DIR = CMakeFiles\tests.dir
+  OBJECT_FILE_DIR = CMakeFiles\tests.dir\tests
+
 build CMakeFiles/tests.dir/tests/test_Triangle.cpp.obj: CXX_COMPILER__tests_unscanned_Debug C$:/Users/Mili/Desktop/uni/2ри$ курс/design$ patterns/homework$ 1/tests/test_Triangle.cpp || cmake_object_order_depends_target_tests
   CONFIG = Debug
   DEP_FILE = CMakeFiles\tests.dir\tests\test_Triangle.cpp.obj.d
@@ -231,7 +239,7 @@ build CMakeFiles/tests.dir/tests/test_Triangle.cpp.obj: CXX_COMPILER__tests_unsc
 #############################################
 # Link the executable tests.exe
 
-build tests.exe: CXX_EXECUTABLE_LINKER__tests_Debug CMakeFiles/tests.dir/tests/catch_amalgamated.cpp.obj CMakeFiles/tests.dir/tests/test_Circle.cpp.obj CMakeFiles/tests.dir/tests/test_Rectangle.cpp.obj CMakeFiles/tests.dir/tests/test_Triangle.cpp.obj | libcore.a || libcore.a
+build tests.exe: CXX_EXECUTABLE_LINKER__tests_Debug CMakeFiles/tests.dir/tests/catch_amalgamated.cpp.obj CMakeFiles/tests.dir/tests/test_Circle.cpp.obj CMakeFiles/tests.dir/tests/test_Rectangle.cpp.obj CMakeFiles/tests.dir/tests/test_StringToFigure.cpp.obj CMakeFiles/tests.dir/tests/test_Triangle.cpp.obj | libcore.a || libcore.a
   CONFIG = Debug
   FLAGS = -g
   LINK_LIBRARIES = libcore.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
