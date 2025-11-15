@@ -1,0 +1,5 @@
+C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build/CMakeFiles/core.dir
+C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build/CMakeFiles/main.dir
+C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build/CMakeFiles/tests.dir
+C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build/CMakeFiles/edit_cache.dir
+C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,80 @@
+[
+{
+  "directory": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build",
+  "command": "D:\\Programs\\mingw64\\bin\\c++.exe -I\"C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/src\" -g -o CMakeFiles\\core.dir\\src\\Application\\Application.cpp.obj -c \"C:\\Users\\Mili\\Desktop\\uni\\2ри курс\\design patterns\\homework 1\\src\\Application\\Application.cpp\"",
+  "file": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/src/Application/Application.cpp",
+  "output": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build/CMakeFiles/core.dir/src/Application/Application.cpp.obj"
+},
+{
+  "directory": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build",
+  "command": "D:\\Programs\\mingw64\\bin\\c++.exe -I\"C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/src\" -g -o CMakeFiles\\core.dir\\src\\FigureFactories\\ConcreteFigureFactory.cpp.obj -c \"C:\\Users\\Mili\\Desktop\\uni\\2ри курс\\design patterns\\homework 1\\src\\FigureFactories\\ConcreteFigureFactory.cpp\"",
+  "file": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/src/FigureFactories/ConcreteFigureFactory.cpp",
+  "output": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build/CMakeFiles/core.dir/src/FigureFactories/ConcreteFigureFactory.cpp.obj"
+},
+{
+  "directory": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build",
+  "command": "D:\\Programs\\mingw64\\bin\\c++.exe -I\"C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/src\" -g -o CMakeFiles\\core.dir\\src\\FigureFactories\\RandomFigureFactory.cpp.obj -c \"C:\\Users\\Mili\\Desktop\\uni\\2ри курс\\design patterns\\homework 1\\src\\FigureFactories\\RandomFigureFactory.cpp\"",
+  "file": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/src/FigureFactories/RandomFigureFactory.cpp",
+  "output": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build/CMakeFiles/core.dir/src/FigureFactories/RandomFigureFactory.cpp.obj"
+},
+{
+  "directory": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build",
+  "command": "D:\\Programs\\mingw64\\bin\\c++.exe -I\"C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/src\" -g -o CMakeFiles\\core.dir\\src\\FigureFactories\\StreamFigureFactory.cpp.obj -c \"C:\\Users\\Mili\\Desktop\\uni\\2ри курс\\design patterns\\homework 1\\src\\FigureFactories\\StreamFigureFactory.cpp\"",
+  "file": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/src/FigureFactories/StreamFigureFactory.cpp",
+  "output": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build/CMakeFiles/core.dir/src/FigureFactories/StreamFigureFactory.cpp.obj"
+},
+{
+  "directory": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build",
+  "command": "D:\\Programs\\mingw64\\bin\\c++.exe -I\"C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/src\" -g -o CMakeFiles\\core.dir\\src\\FigureFactories\\StringToFigure.cpp.obj -c \"C:\\Users\\Mili\\Desktop\\uni\\2ри курс\\design patterns\\homework 1\\src\\FigureFactories\\StringToFigure.cpp\"",
+  "file": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/src/FigureFactories/StringToFigure.cpp",
+  "output": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build/CMakeFiles/core.dir/src/FigureFactories/StringToFigure.cpp.obj"
+},
+{
+  "directory": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build",
+  "command": "D:\\Programs\\mingw64\\bin\\c++.exe -I\"C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/src\" -g -o CMakeFiles\\core.dir\\src\\Figures\\Circle.cpp.obj -c \"C:\\Users\\Mili\\Desktop\\uni\\2ри курс\\design patterns\\homework 1\\src\\Figures\\Circle.cpp\"",
+  "file": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/src/Figures/Circle.cpp",
+  "output": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build/CMakeFiles/core.dir/src/Figures/Circle.cpp.obj"
+},
+{
+  "directory": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build",
+  "command": "D:\\Programs\\mingw64\\bin\\c++.exe -I\"C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/src\" -g -o CMakeFiles\\core.dir\\src\\Figures\\Rectangle.cpp.obj -c \"C:\\Users\\Mili\\Desktop\\uni\\2ри курс\\design patterns\\homework 1\\src\\Figures\\Rectangle.cpp\"",
+  "file": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/src/Figures/Rectangle.cpp",
+  "output": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build/CMakeFiles/core.dir/src/Figures/Rectangle.cpp.obj"
+},
+{
+  "directory": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build",
+  "command": "D:\\Programs\\mingw64\\bin\\c++.exe -I\"C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/src\" -g -o CMakeFiles\\core.dir\\src\\Figures\\Triangle.cpp.obj -c \"C:\\Users\\Mili\\Desktop\\uni\\2ри курс\\design patterns\\homework 1\\src\\Figures\\Triangle.cpp\"",
+  "file": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/src/Figures/Triangle.cpp",
+  "output": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build/CMakeFiles/core.dir/src/Figures/Triangle.cpp.obj"
+},
+{
+  "directory": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build",
+  "command": "D:\\Programs\\mingw64\\bin\\c++.exe -I\"C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/src\" -g -o CMakeFiles\\core.dir\\src\\Utils\\RandomGenerator.cpp.obj -c \"C:\\Users\\Mili\\Desktop\\uni\\2ри курс\\design patterns\\homework 1\\src\\Utils\\RandomGenerator.cpp\"",
+  "file": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/src/Utils/RandomGenerator.cpp",
+  "output": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build/CMakeFiles/core.dir/src/Utils/RandomGenerator.cpp.obj"
+},
+{
+  "directory": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build",
+  "command": "D:\\Programs\\mingw64\\bin\\c++.exe -I\"C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/src\" -g -o CMakeFiles\\core.dir\\src\\Utils\\Utils.cpp.obj -c \"C:\\Users\\Mili\\Desktop\\uni\\2ри курс\\design patterns\\homework 1\\src\\Utils\\Utils.cpp\"",
+  "file": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/src/Utils/Utils.cpp",
+  "output": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build/CMakeFiles/core.dir/src/Utils/Utils.cpp.obj"
+},
+{
+  "directory": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build",
+  "command": "D:\\Programs\\mingw64\\bin\\c++.exe -I\"C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/src\" -g -o CMakeFiles\\main.dir\\main.cpp.obj -c \"C:\\Users\\Mili\\Desktop\\uni\\2ри курс\\design patterns\\homework 1\\main.cpp\"",
+  "file": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/main.cpp",
+  "output": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build/CMakeFiles/main.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build",
+  "command": "D:\\Programs\\mingw64\\bin\\c++.exe -I\"C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/src\" -g -o CMakeFiles\\tests.dir\\tests\\catch_amalgamated.cpp.obj -c \"C:\\Users\\Mili\\Desktop\\uni\\2ри курс\\design patterns\\homework 1\\tests\\catch_amalgamated.cpp\"",
+  "file": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/tests/catch_amalgamated.cpp",
+  "output": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build/CMakeFiles/tests.dir/tests/catch_amalgamated.cpp.obj"
+},
+{
+  "directory": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build",
+  "command": "D:\\Programs\\mingw64\\bin\\c++.exe -I\"C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/src\" -g -o CMakeFiles\\tests.dir\\tests\\test_Triangle.cpp.obj -c \"C:\\Users\\Mili\\Desktop\\uni\\2ри курс\\design patterns\\homework 1\\tests\\test_Triangle.cpp\"",
+  "file": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/tests/test_Triangle.cpp",
+  "output": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build/CMakeFiles/tests.dir/tests/test_Triangle.cpp.obj"
+}
+]

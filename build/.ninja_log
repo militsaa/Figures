@@ -1,0 +1,17 @@
+# ninja log v7
+66	648	7848702019171048	CMakeFiles/main.dir/main.cpp.obj	523fef09089fe73c
+19	721	7848702018697555	CMakeFiles/core.dir/src/FigureFactories/StreamFigureFactory.cpp.obj	6118a673b8b923fd
+41	808	7848702018924445	CMakeFiles/core.dir/src/Figures/Rectangle.cpp.obj	87cc5859abd96b28
+34	859	7848702018849029	CMakeFiles/core.dir/src/Figures/Circle.cpp.obj	abef9117fe37d202
+49	864	7848702019001334	CMakeFiles/core.dir/src/Figures/Triangle.cpp.obj	575ee6777adf489e
+56	954	7848702019065405	CMakeFiles/core.dir/src/Utils/RandomGenerator.cpp.obj	d3308f18a5eb93aa
+61	1097	7848702019119042	CMakeFiles/core.dir/src/Utils/Utils.cpp.obj	7ff984aeffc59f7
+13	1132	7848702018637726	CMakeFiles/core.dir/src/FigureFactories/RandomFigureFactory.cpp.obj	3e939ee703cf3703
+7	1210	7848702018579613	CMakeFiles/core.dir/src/FigureFactories/ConcreteFigureFactory.cpp.obj	4cde74e894e38481
+25	1241	7848702018767540	CMakeFiles/core.dir/src/FigureFactories/StringToFigure.cpp.obj	fc6d325808b95061
+2	1299	7848702018528869	CMakeFiles/core.dir/src/Application/Application.cpp.obj	f177705ef0200637
+74	1401	7848702019256263	CMakeFiles/tests.dir/tests/test_Triangle.cpp.obj	c79d9cf2fd2b3ae7
+1299	2281	7848702031490443	libcore.a	52019fb897bcf4f7
+2281	2443	7848702041315649	main.exe	dd84d70bcd90fe35
+71	29681	7848702019213433	CMakeFiles/tests.dir/tests/catch_amalgamated.cpp.obj	4fe1210109ade3d4
+29682	30039	7848702315288218	tests.exe	3e2f826492971c10

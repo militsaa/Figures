@@ -1,6 +1,6 @@
 #include <sstream>
 #include <iostream>
-#include "Application.h"
+#include "src/Application/Application.h"
 int main()
 {
     Application app;

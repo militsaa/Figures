@@ -1,9 +1,7 @@
 cmake_minimum_required(VERSION 3.10.0)
 project(Figures VERSION 0.1.0 LANGUAGES C CXX)
 
-add_executable(Figures main.cpp)
-
-file(GLOB_RECURSE SRC_FILES "src/*.cpp")
+file(GLOB_RECURSE SRC_FILES "src/**/*.cpp")
 add_library(core ${SRC_FILES})
 target_include_directories(core PUBLIC src)
 

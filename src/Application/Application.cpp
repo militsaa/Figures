@@ -1,7 +1,7 @@
 #include "Application.h"
 #include <iostream>
-#include "FigureFactory.h"
-#include "ConcreteFigureFactory.h"
+#include "../FigureFactories/FigureFactory.h"
+#include "../FigureFactories/ConcreteFigureFactory.h"
 #include <vector>
 #include <fstream>
 #include <iomanip> 
