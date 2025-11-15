@@ -85,6 +85,12 @@
 },
 {
   "directory": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build",
+  "command": "D:\\Programs\\mingw64\\bin\\c++.exe -I\"C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/src\" -g -o CMakeFiles\\tests.dir\\tests\\test_StreamFigureFactory.cpp.obj -c \"C:\\Users\\Mili\\Desktop\\uni\\2ри курс\\design patterns\\homework 1\\tests\\test_StreamFigureFactory.cpp\"",
+  "file": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/tests/test_StreamFigureFactory.cpp",
+  "output": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build/CMakeFiles/tests.dir/tests/test_StreamFigureFactory.cpp.obj"
+},
+{
+  "directory": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build",
   "command": "D:\\Programs\\mingw64\\bin\\c++.exe -I\"C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/src\" -g -o CMakeFiles\\tests.dir\\tests\\test_StringToFigure.cpp.obj -c \"C:\\Users\\Mili\\Desktop\\uni\\2ри курс\\design patterns\\homework 1\\tests\\test_StringToFigure.cpp\"",
   "file": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/tests/test_StringToFigure.cpp",
   "output": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build/CMakeFiles/tests.dir/tests/test_StringToFigure.cpp.obj"
@@ -94,5 +100,11 @@
   "command": "D:\\Programs\\mingw64\\bin\\c++.exe -I\"C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/src\" -g -o CMakeFiles\\tests.dir\\tests\\test_Triangle.cpp.obj -c \"C:\\Users\\Mili\\Desktop\\uni\\2ри курс\\design patterns\\homework 1\\tests\\test_Triangle.cpp\"",
   "file": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/tests/test_Triangle.cpp",
   "output": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build/CMakeFiles/tests.dir/tests/test_Triangle.cpp.obj"
+},
+{
+  "directory": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build",
+  "command": "D:\\Programs\\mingw64\\bin\\c++.exe -I\"C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/src\" -g -o CMakeFiles\\tests.dir\\tests\\test_randomFigureFactory.cpp.obj -c \"C:\\Users\\Mili\\Desktop\\uni\\2ри курс\\design patterns\\homework 1\\tests\\test_randomFigureFactory.cpp\"",
+  "file": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/tests/test_randomFigureFactory.cpp",
+  "output": "C:/Users/Mili/Desktop/uni/2ри курс/design patterns/homework 1/build/CMakeFiles/tests.dir/tests/test_randomFigureFactory.cpp.obj"
 }
 ]

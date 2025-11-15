@@ -3,7 +3,7 @@
 #include "../Utils/RandomGenerator.h"
 #include <memory>
 class RandomFigureFactory : public FigureFactory {
-    const double MAX_PARAMETER_VALUE = 50;
+    const double MAX_PARAMETER_VALUE = 2000;
     RandomGenerator rand;
 
     std::unique_ptr<Figure> randomCircle();
