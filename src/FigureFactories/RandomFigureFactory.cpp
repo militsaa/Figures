@@ -5,22 +5,22 @@
 
 std::unique_ptr<Figure>  RandomFigureFactory::randomCircle()
 {
-    int radius = rand.getRandDouble(0.1, MAX_PARAMETER_VALUE);
+    double radius = rand.getRandDouble(0.1, MAX_PARAMETER_VALUE);
     return std::make_unique<Circle>(radius);
 }
 
 std::unique_ptr<Figure> RandomFigureFactory::randomRectangle()
 {
-    int sideA = rand.getRandDouble(0.1, MAX_PARAMETER_VALUE);
-    int sideB = rand.getRandDouble(0.1, MAX_PARAMETER_VALUE);
+    double sideA = rand.getRandDouble(0.1, MAX_PARAMETER_VALUE);
+    double sideB = rand.getRandDouble(0.1, MAX_PARAMETER_VALUE);
     return std::make_unique<Rectangle>(sideA, sideB);
 }
 
 std::unique_ptr<Figure> RandomFigureFactory::randomTriangle()
 {
-    int sideA = rand.getRandDouble(0.1, MAX_PARAMETER_VALUE);
-    int sideB = rand.getRandDouble(0.1, MAX_PARAMETER_VALUE);
-    int sideC = rand.getRandDouble(abs(sideA - sideB) + 0.1, sideA + sideB - 0.1);
+    double sideA = rand.getRandDouble(0.1, MAX_PARAMETER_VALUE);
+    double sideB = rand.getRandDouble(0.1, MAX_PARAMETER_VALUE);
+    double sideC = rand.getRandDouble(abs(sideA - sideB) + 0.1, sideA + sideB - 0.1);
     return std::make_unique<Triangle>(sideA, sideB, sideC);
 }
 
