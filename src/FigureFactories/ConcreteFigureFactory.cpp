@@ -13,10 +13,10 @@ std::unique_ptr<FigureFactory> ConcreteFigureFactory::create(std::string& type)
         return std::make_unique<StreamFigureFactory>(std::cin);
     }
     if (type == "File") {
+        std::cout << "Name of the file?\n";
         std::string fileName;
         std::cin >> fileName;
-        std::ifstream in(fileName);
-        return std::make_unique<StreamFigureFactory>(in);
+        return std::make_unique<StreamFigureFactory>(fileName);
     }
     throw std::invalid_argument("Invalid type!");
 }

@@ -4,6 +4,7 @@
 #include "../FigureFactories/ConcreteFigureFactory.h"
 #include <vector>
 #include <fstream>
+#include <limits>
 
 void Application::listFigures(const std::vector<std::unique_ptr<Figure>>& figures)
 {
@@ -14,6 +15,7 @@ void Application::listFigures(const std::vector<std::unique_ptr<Figure>>& figure
 
 void Application::saveInFile(const std::vector<std::unique_ptr<Figure>>& figures)
 {
+    std::cout << "Write name of the file!\n";
     std::string fileName;
     std::cin >> fileName;
     std::ofstream ofs(fileName);
@@ -24,7 +26,7 @@ void Application::saveInFile(const std::vector<std::unique_ptr<Figure>>& figures
     for (int i = 0;i < figures.size();i++) {
         ofs << figures[i]->to_string() << "\n";
     }
-    //close?
+    ofs.close();
 }
 
 void Application::getPerimeter(const std::vector<std::unique_ptr<Figure>>& figures)
@@ -72,17 +74,28 @@ void Application::run()
     std::cin >> inputType;
 
     ConcreteFigureFactory provider;
-    std::unique_ptr<FigureFactory> factory = provider.create(inputType);
+    std::unique_ptr<FigureFactory> factory = nullptr;
 
-    std::cout << "How many figures do you want to load?\n";
+    while (factory == nullptr) {
+        try {
+            factory = provider.create(inputType);
+        }
+        catch (const std::exception& e) {
+            std::cout << "Wrong creation type! Choose between Random, STDIN and  File!\n";
+            std::cin >> inputType;
+        }
+    }
+
+    std::cout << "How many figures do you want to create?\n";
     int n;
     std::cin >> n;
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max()
+        , '\n');
 
     std::vector<std::unique_ptr<Figure>> figures;
     for (int i = 0; i < n;i++) {
         try {
             figures.push_back(factory->create());
-            break;
         }
         catch (const std::exception& e) {
             std::cout << "Couldn't create figure " << i << "\n";
@@ -90,6 +103,7 @@ void Application::run()
     }
 
     while (true) {
+        std::cout << "Write down a command!\n";
         std::string cmd;
         std::cin >> cmd;
         if (cmd == "list") {
@@ -101,7 +115,7 @@ void Application::run()
         else if (cmd == "delete") {
             deleteAtIndex(figures);
         }
-        else if (cmd == "safe") {
+        else if (cmd == "save") {
             saveInFile(figures);
         }
         else if (cmd == "perimeters") {
